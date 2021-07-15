@@ -1,0 +1,182 @@
+// Auth Types
+export const SET_REGISTER = "SET_REGISTER";
+export const FETCH_REGISTER_USER = "FETCH_REGISTER_USER";
+export const VALIDATE_ERRORS = "VALIDATE_ERRORS";
+export const VERIFY_USER = "VERIFY_USER";
+export const CREATE_PLAN_PURCHASE_LINK = "CREATE_PLAN_PURCHASE_LINK";
+export const LOGIN = "LOGIN";
+export const SET_LOGIN_USER = "SET_LOGIN_USER";
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const SELECT_PLAN = "SELECT_PLAN";
+export const REQUEST_RESET_PASSWORD = "REQUEST_RESET_PASSWORD";
+export const VERIFY_RESET_PASSWORD_OTP = "VERIFY_RESET_PASSWORD_OTP";
+export const RESET_PASSWORD = "RESET_PASSWORD";
+export const LOGOUT = "LOGOUT";
+
+// Division Crud Types
+export const FETCH_DIVISIONS = "FETCH_DIVISIONS";
+export const FETCH_DIVISION = "FETCH_DIVISION";
+export const CREATE_DIVISION = "CREATE_DIVISION";
+export const UPDATE_DIVISION = "UPDATE_DIVISION";
+export const DELETE_DIVISION = "DELETE_DIVISION";
+
+// District Crud Types
+export const FETCH_DISTRICTS = "FETCH_DISTRICTS";
+export const FETCH_DISTRICT = "FETCH_DISTRICT";
+export const CREATE_DISTRICT = "CREATE_DISTRICT";
+export const UPDATE_DISTRICT = "UPDATE_DISTRICT";
+export const DELETE_DISTRICT = "DELETE_DISTRICT";
+
+// Sub District Crud Types
+export const FETCH_SUB_DISTRICTS = "FETCH_SUB_DISTRICTS";
+export const FETCH_SUB_DISTRICT = "FETCH_SUB_DISTRICT";
+export const CREATE_SUB_DISTRICT = "CREATE_SUB_DISTRICT";
+export const UPDATE_SUB_DISTRICT = "UPDATE_SUB_DISTRICT";
+export const DELETE_SUB_DISTRICT = "DELETE_SUB_DISTRICT";
+
+// PostOffice Crud Types
+export const FETCH_POST_OFFICES = "FETCH_POST_OFFICES";
+export const FETCH_POST_OFFICE = "FETCH_POST_OFFICE";
+export const CREATE_POST_OFFICE = "CREATE_POST_OFFICE";
+export const UPDATE_POST_OFFICE = "UPDATE_POST_OFFICE";
+export const DELETE_POST_OFFICE = "DELETE_POST_OFFICE";
+
+/*
+    System Types
+        1. Brand Types
+        2. Box Types
+        3. Payment Types
+        4. Currency Types
+        5. TaxRate Types
+        6. Unit Types
+        7. Store Types
+*/
+export const FETCH_BRANDS = "FETCH_BRANDS";
+export const FETCH_BRAND = "FETCH_BRAND";
+export const CREATE_BRAND = "CREATE_BRAND";
+export const UPDATE_BRAND = "UPDATE_BRAND";
+export const DELETE_BRAND = "DELETE_BRAND";
+
+export const FETCH_BOXES = "FETCH_BOXES";
+export const FETCH_BOX = "FETCH_BOX";
+export const CREATE_BOX = "CREATE_BOX";
+export const UPDATE_BOX = "UPDATE_BOX";
+export const DELETE_BOX = "DELETE_BOX";
+
+export const FETCH_PAYMENT_METHODS = "FETCH_PAYMENT_METHODS";
+export const FETCH_PAYMENT_METHOD = "FETCH_PAYMENT_METHOD";
+export const CREATE_PAYMENT_METHOD = "CREATE_PAYMENT_METHOD";
+export const UPDATE_PAYMENT_METHOD = "UPDATE_PAYMENT_METHOD";
+export const DELETE_PAYMENT_METHOD = "DELETE_PAYMENT_METHOD";
+
+export const FETCH_CURRENCIES = "FETCH_CURRENCIES";
+export const FETCH_CURRENCY = "FETCH_CURRENCY";
+export const CREATE_CURRENCY = "CREATE_CURRENCY";
+export const UPDATE_CURRENCY = "UPDATE_CURRENCY";
+export const DELETE_CURRENCY = "DELETE_CURRENCY";
+
+export const FETCH_TAX_RATES = "FETCH_TAX_RATES";
+export const FETCH_TAX_RATE = "FETCH_TAX_RATE";
+export const CREATE_TAX_RATE = "CREATE_TAX_RATE";
+export const UPDATE_TAX_RATE = "UPDATE_TAX_RATE";
+export const DELETE_TAX_RATE = "DELETE_TAX_RATE";
+
+export const FETCH_UNITS = "FETCH_UNITS";
+export const FETCH_UNIT = "FETCH_UNIT";
+export const CREATE_UNIT = "CREATE_UNIT";
+export const UPDATE_UNIT = "UPDATE_UNIT";
+export const DELETE_UNIT = "DELETE_UNIT";
+
+export const SET_STORE = "SET_STORE";
+export const FETCH_STORES = "FETCH_STORES";
+export const FETCH_STORE = "FETCH_STORE";
+export const UPDATE_STORE = "UPDATE_STORE";
+export const DELETE_STORE = "DELETE_STORE";
+
+/*
+    Product Types
+        1. Category Types
+        2. Supplier Types
+        3. Product Types
+*/
+export const FETCH_CATEGORIES = "FETCH_CATEGORIES";
+export const FETCH_CATEGORY = "FETCH_CATEGORY";
+export const CREATE_CATEGORY = "CREATE_CATEGORY";
+export const UPDATE_CATEGORY = "UPDATE_CATEGORY";
+export const DELETE_CATEGORY = "DELETE_CATEGORY";
+
+export const FETCH_SUPPLIERS = "FETCH_SUPPLIERS";
+export const FETCH_SUPPLIER = "FETCH_SUPPLIER";
+export const CREATE_SUPPLIER = "CREATE_SUPPLIER";
+export const UPDATE_SUPPLIER = "UPDATE_SUPPLIER";
+export const DELETE_SUPPLIER = "DELETE_SUPPLIER";
+
+export const FETCH_PRODUCTS = "FETCH_PRODUCTS";
+export const FETCH_PRODUCT = "FETCH_PRODUCT";
+export const CREATE_PRODUCT = "CREATE_PRODUCT";
+export const UPDATE_PRODUCT = "UPDATE_PRODUCT";
+export const DELETE_PRODUCT = "DELETE_PRODUCT";
+
+// Customer Crud Types
+export const FETCH_CUSTOMERS = "FETCH_CUSTOMERS";
+export const FETCH_CUSTOMER = "FETCH_CUSTOMER";
+export const CREATE_CUSTOMER = "CREATE_CUSTOMER";
+export const UPDATE_CUSTOMER = "UPDATE_CUSTOMER";
+export const DELETE_CUSTOMER = "DELETE_CUSTOMER";
+
+// Purchase Crud Types
+export const FETCH_PURCHASES = "FETCH_PURCHASES";
+export const FETCH_PURCHASE = "FETCH_PURCHASE";
+export const CREATE_PURCHASE = "CREATE_PURCHASE";
+export const UPDATE_PURCHASE = "UPDATE_PURCHASE";
+export const DELETE_PURCHASE = "DELETE_PURCHASE";
+export const SET_PURCHASE_FORM = "SET_PURCHASE_FORM";
+export const RESET_PURCHASE_FORM = "RESET_PURCHASE_FORM";
+
+// Quotation Crud Types
+export const FETCH_QUOTATIONS = "FETCH_QUOTATIONS";
+export const FETCH_QUOTATION = "FETCH_QUOTATION";
+export const CREATE_QUOTATION = "CREATE_QUOTATION";
+export const UPDATE_QUOTATION = "UPDATE_QUOTATION";
+export const DELETE_QUOTATION = "DELETE_QUOTATION";
+export const SET_QUOTATION_FORM = "SET_QUOTATION_FORM";
+export const RESET_QUOTATION_FORM = "RESET_QUOTATION_FORM";
+
+// Loan Crud Types
+export const FETCH_LOANS = "FETCH_LOANS";
+export const FETCH_LOAN = "FETCH_LOAN";
+export const CREATE_LOAN = "CREATE_LOAN";
+export const UPDATE_LOAN = "UPDATE_LOAN";
+export const DELETE_LOAN = "DELETE_LOAN";
+
+// Expense Category Crud Types
+export const FETCH_EXPENSE_CATEGORIES = "FETCH_EXPENSE_CATEGORIES";
+export const FETCH_EXPENSE_CATEGORY = "FETCH_EXPENSE_CATEGORY";
+export const CREATE_EXPENSE_CATEGORY = "CREATE_EXPENSE_CATEGORY";
+export const UPDATE_EXPENSE_CATEGORY = "UPDATE_EXPENSE_CATEGORY";
+export const DELETE_EXPENSE_CATEGORY = "DELETE_EXPENSE_CATEGORY";
+
+// Expense Crud Types
+export const FETCH_EXPENSES = "FETCH_EXPENSES";
+export const FETCH_EXPENSE = "FETCH_EXPENSE";
+export const CREATE_EXPENSE = "CREATE_EXPENSE";
+export const UPDATE_EXPENSE = "UPDATE_EXPENSE";
+export const DELETE_EXPENSE = "DELETE_EXPENSE";
+
+// Cashier Crud Types
+export const FETCH_CASHIERS = "FETCH_CASHIERS";
+
+// Staff Crud Types
+export const CREATE_STAFF = "CREATE_STAFF";
+
+// Pricing Crud Types
+export const FETCH_PRICING_PLANS = "FETCH_PRICING_PLANS";
+
+// Utils Types
+export const TOGGLE_SIDEBAR = "TOGGLE_SIDEBAR";
+export const TOGGLE_NOTIFICATION = "TOGGLE_NOTIFICATION";
+export const TOGGLE_LOADING = "TOGGLE_LOADING";
+export const TOGGLE_PURCHASE_MODAL = "TOGGLE_PURCHASE_MODAL";
+export const SITE_VALIDATE_ERRORS = "SITE_VALIDATE_ERRORS";
+export const TOGGLE_DIALOG = "TOGGLE_DIALOG";
+export const FETCH_TIMEZONES = "FETCH_TIMEZONES";
